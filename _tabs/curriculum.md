@@ -1,14 +1,12 @@
 ---
 layout: page
-title: CV
-permalink: /cv/
+icon: fas fa-address-card
+order: 5
 ---
-
-![Profile Picture](/assets/myself.jpeg)
 
 ## Work Experience
 
-### Senior Technical Manager  - [Tripadvisor](https://www.tripadvisor.com/) 
+### Senior Technical Manager  - [Viator](https://www.viator.com/) 
 Nov 2021 - Present
 **Data and ML Platform**
 ### Data Engineering Manager  - [Miniclip](https://www.miniclip.com/) 
@@ -24,6 +22,7 @@ Sep 2012 - Sep 2014
 **Master's Thesis** - Community Discovery in Mobile Games
 ### Bachelor's degree, Computer Engineering - [ISCTE-IUL](https://www.iscte-iul.pt/) 
 Sep 2008 - Sep 2012
+
 ## Tech Stack
 
 Java, SQL, Airflow, AWS, GCP, Apache Spark & Flink & Iceberg
