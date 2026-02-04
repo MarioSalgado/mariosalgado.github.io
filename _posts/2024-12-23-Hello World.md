@@ -5,3 +5,9 @@ categories: [Tech, Writing]
 tags: [comms] 
 ---
 Hello World
+
+```mermaid
+flowchart LR
+  "Idea" --> "Draft"
+  "Draft" --> "Publish"
+```
