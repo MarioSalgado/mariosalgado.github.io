@@ -4,6 +4,8 @@ date: 2026-02-02 10:30:00 +0000
 categories: [Games, Writing]
 tags: [hearthstone, meta, rotation, games]
 ---
+![Hearthstone meta rotation cover](/assets/img/posts/hearthstone-meta.svg)
+
 Few games reinvent themselves as gracefully as Hearthstone. Every rotation is a reminder that the "best" deck is temporary, and the real skill is how you adapt when the ground shifts.
 
 ## Rotation Is a Design Feature
@@ -42,11 +44,3 @@ Hearthstone is at its best when it surprises me. A new rotation brings that feel
 I do not always have the time to grind, but I almost always have the time to tinker. Rotation season is when the tinkering feels most alive.
 
 If you are also returning for a new rotation, I would love to hear what decks you are trying. I am always looking for a good idea to steal, remix, and make my own.
-
-```mermaid
-flowchart LR
-  "Rotation" --> "New Cards"
-  "New Cards" --> "Fresh Archetypes"
-  "Fresh Archetypes" --> "Meta Shifts"
-  "Meta Shifts" --> "Tech Choices"
-```

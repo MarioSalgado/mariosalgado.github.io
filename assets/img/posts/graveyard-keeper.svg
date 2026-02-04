@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Graveyard Keeper cover">
+  <defs>
+    <linearGradient id="night" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1a2a"/>
+      <stop offset="100%" stop-color="#1c2f3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#night)"/>
+  <rect x="120" y="400" width="960" height="120" fill="#1f3b2f"/>
+  <rect x="240" y="300" width="80" height="150" fill="#d9d3c2" opacity="0.6"/>
+  <rect x="360" y="280" width="80" height="170" fill="#d9d3c2" opacity="0.5"/>
+  <rect x="480" y="310" width="80" height="140" fill="#d9d3c2" opacity="0.4"/>
+  <text x="120" y="190" fill="#f8f6f1" font-family="'Georgia', 'Times New Roman', serif" font-size="60">Graveyard Keeper</text>
+  <text x="120" y="240" fill="#c2d2c2" font-family="'Verdana', sans-serif" font-size="26">Cozy, macabre, and surprisingly deep</text>
+  <circle cx="980" cy="140" r="60" fill="#f2f1e8" opacity="0.15"/>
+</svg>

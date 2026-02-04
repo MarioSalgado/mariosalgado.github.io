@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="LLMs and agentic AI cover">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect x="110" y="140" width="260" height="260" rx="22" fill="#f0f4f8" opacity="0.15"/>
+  <rect x="420" y="140" width="260" height="260" rx="22" fill="#f0f4f8" opacity="0.22"/>
+  <rect x="730" y="140" width="260" height="260" rx="22" fill="#f0f4f8" opacity="0.3"/>
+  <line x1="370" y1="270" x2="420" y2="270" stroke="#f25f5c" stroke-width="6"/>
+  <line x1="680" y1="270" x2="730" y2="270" stroke="#f25f5c" stroke-width="6"/>
+  <text x="120" y="500" fill="#f8f6f1" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="56">LLMs and Agentic AI</text>
+  <text x="120" y="552" fill="#d0d9e2" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="24">Interfaces, tools, and feedback loops</text>
+</svg>

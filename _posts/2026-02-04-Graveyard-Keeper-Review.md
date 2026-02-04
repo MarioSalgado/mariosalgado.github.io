@@ -4,6 +4,8 @@ date: 2026-02-04 09:00:00 +0000
 categories: [Games, Writing]
 tags: [graveyard-keeper, review, games]
 ---
+![Graveyard Keeper cover](/assets/img/posts/graveyard-keeper.svg)
+
 Graveyard Keeper is one of those games I expected to like, and then ended up loving. It is weird, cozy, and quietly deep in all the right ways. The theme is macabre, sure, but the overall feeling is warm: a slow, satisfying loop of planning, crafting, and steadily improving your little corner of the world.
 
 ## The Feel Is the Hook
@@ -25,11 +27,3 @@ What I like most is that it does not punish you for experimenting. You can build
 If you enjoy games that blend management, crafting, and a bit of narrative charm, Graveyard Keeper is an easy recommendation. It has the feel-good cadence of a life sim, the depth of a production game, and a theme that makes it stand out without being off-putting.
 
 It is cozy in the most unexpected way, and I mean that as a compliment.
-
-```mermaid
-flowchart LR
-  "Gather" --> "Craft"
-  "Craft" --> "Upgrade"
-  "Upgrade" --> "Unlocks"
-  "Unlocks" --> "Gather"
-```

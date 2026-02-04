@@ -4,6 +4,8 @@ date: 2026-02-02 10:00:00 +0000
 categories: [Tech, Writing]
 tags: [llm, ai, agents, product]
 ---
+![LLMs and agentic AI cover](/assets/img/posts/llm-agentic.svg)
+
 Large language models (LLMs) can write, summarize, and reason in ways that feel close to human collaboration. "Agentic AI" pushes that further: an LLM doesn't just respond, it *acts* by choosing tools, planning steps, and iterating toward a goal. That sounds like magic, but the practical wins come from how we design the system around the model.
 
 Here is the framing I keep returning to.
@@ -52,12 +54,3 @@ If I had to pick the most durable advantage in this space, I would say:
 The model gets better every month. The product design and the process around it are what make it feel like a superpower instead of a demo.
 
 If you are building with LLMs or experimenting with agents, I would love to compare notes. The fun part is not just what these systems can do, but how we choose to shape them.
-
-```mermaid
-flowchart LR
-  "Intent" --> "LLM"
-  "LLM" --> "Tools"
-  "Tools" --> "Outcome"
-  "Outcome" --> "Feedback"
-  "Feedback" --> "LLM"
-```
