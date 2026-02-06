@@ -1,0 +1,45 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PostCard from '@/components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const categories = new Set<string>();
+  posts.forEach((post) => post.data.categories.forEach((cat) => categories.add(cat)));
+
+  return [...categories].map((category) => ({
+    params: { category: category.toLowerCase() },
+    props: {
+      category,
+      posts: posts
+        .filter((post) => post.data.categories.includes(category))
+        .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()),
+    },
+  }));
+}
+
+const { category, posts } = Astro.props;
+---
+
+<BaseLayout title={`Category: ${category}`}>
+  <div class="max-w-4xl mx-auto px-4 py-16">
+    <div class="mb-10">
+      <a href="/categories" class="text-sm text-indigo-500 hover:text-indigo-400 transition-colors mb-2 inline-block">&larr; All categories</a>
+      <h1 class="text-4xl font-extrabold">{category}</h1>
+      <p class="text-gray-500 mt-2">{posts.length} post{posts.length !== 1 ? 's' : ''}</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {posts.map((post) => (
+        <PostCard
+          title={post.data.title}
+          date={post.data.date}
+          slug={post.id}
+          image={post.data.image}
+          categories={post.data.categories}
+          description={post.data.description}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>
