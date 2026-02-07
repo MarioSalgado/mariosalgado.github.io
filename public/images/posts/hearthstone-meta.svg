@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Hearthstone rotation cover">
-  <rect width="1200" height="630" fill="#111018"/>
-  <circle cx="260" cy="320" r="150" fill="#f2a900" opacity="0.2"/>
-  <circle cx="560" cy="320" r="150" fill="#f2a900" opacity="0.35"/>
-  <circle cx="860" cy="320" r="150" fill="#f2a900" opacity="0.5"/>
-  <text x="120" y="170" fill="#f8f6f1" font-family="'Georgia', 'Times New Roman', serif" font-size="60">Hearthstone</text>
-  <text x="120" y="230" fill="#d3c7a2" font-family="'Georgia', 'Times New Roman', serif" font-size="36">Meta rotation and adaptation</text>
-  <path d="M350 420 L430 500 L510 420" stroke="#f25f5c" stroke-width="8" fill="none"/>
-</svg>

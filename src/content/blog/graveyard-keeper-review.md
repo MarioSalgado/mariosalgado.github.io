@@ -3,7 +3,6 @@ title: "Graveyard Keeper, or Why Cozy Can Be Morbid and Still Feel Great"
 date: 2026-02-04 09:00:00 +0000
 categories: [Games, Writing]
 tags: [graveyard-keeper, review, games]
-image: /images/posts/graveyard-keeper.svg
 description: "A review of Graveyard Keeper — a game that blends macabre themes with cozy crafting loops and surprising depth."
 ---
 

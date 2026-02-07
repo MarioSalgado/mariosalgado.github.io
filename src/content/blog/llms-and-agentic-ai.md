@@ -3,7 +3,6 @@ title: "LLMs, Agentic AI, and Where the Real Leverage Is"
 date: 2026-02-02 10:00:00 +0000
 categories: [Tech, Writing]
 tags: [llm, ai, agents, product]
-image: /images/posts/llm-agentic.svg
 description: "Exploring how LLMs serve as interface layers, the spectrum of agentic AI, and where durable advantage lies in building with language models."
 ---
 

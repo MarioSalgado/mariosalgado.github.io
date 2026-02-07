@@ -3,7 +3,6 @@ title: "Hearthstone, Meta Rotation, and Why It Keeps Me Coming Back"
 date: 2026-02-02 10:30:00 +0000
 categories: [Games, Writing]
 tags: [hearthstone, meta, rotation, games]
-image: /images/posts/hearthstone-meta.svg
 description: "On how Hearthstone's rotation system keeps the game fresh, and why adapting to a new meta is the real skill."
 ---
 

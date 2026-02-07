@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Hello World cover">
-  <rect width="1200" height="630" fill="#0b1320"/>
-  <circle cx="180" cy="140" r="90" fill="#1f2a3a"/>
-  <circle cx="1030" cy="520" r="140" fill="#132238"/>
-  <text x="100" y="290" fill="#f8f6f1" font-family="Georgia, 'Times New Roman', serif" font-size="72">Hello, world</text>
-  <text x="100" y="360" fill="#aab3c5" font-family="Verdana, Geneva, sans-serif" font-size="24">A first post and a fresh start.</text>
-  <rect x="100" y="410" width="260" height="6" fill="#f25f5c"/>
-</svg>
