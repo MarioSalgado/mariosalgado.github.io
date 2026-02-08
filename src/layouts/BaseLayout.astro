@@ -20,6 +20,22 @@ const { title, description, image } = Astro.props;
     <ViewTransitions />
   </head>
   <body class="min-h-screen flex flex-col antialiased">
+    <script is:inline>
+      // Force a cache-busting reload once per build to bypass CDN-stale HTML.
+      (function () {
+        const build = __BUILD_TIME__;
+        const last = localStorage.getItem('build');
+        const url = new URL(window.location.href);
+        const hasV = url.searchParams.has('v');
+        if (last !== build && !hasV) {
+          url.searchParams.set('v', build);
+          localStorage.setItem('build', build);
+          window.location.replace(url.toString());
+          return;
+        }
+        localStorage.setItem('build', build);
+      })();
+    </script>
     <Header />
     <main class="flex-1">
       <slot />
