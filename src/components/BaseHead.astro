@@ -40,4 +40,6 @@ const imageURL = new URL(image, Astro.site);
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={imageURL} />
 
+<meta name="build-time" content={__BUILD_TIME__} />
+
 <meta name="generator" content={Astro.generator} />
